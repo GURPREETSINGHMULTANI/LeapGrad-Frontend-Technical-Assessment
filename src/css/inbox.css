@@ -1,0 +1,16 @@
+.Inbox{
+    width: 100%;
+    height: calc(100% - 58px - 57px);
+    background-color: transparent;
+    overflow-y: auto;
+}
+
+.Inbox::-webkit-scrollbar {
+    display: none;
+}
+
+.Inbox {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
+

@@ -1,0 +1,102 @@
+.Navbar{
+    background-color: rgba(247, 247, 247, 1);
+    height: 58px;
+    width: 100%;
+    border-bottom: calc(1px/2) solid lightgray;
+    position: relative;
+    z-index: 4;
+}
+
+.Navbar-activity-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(376px/3);
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Navbar-logo{
+    height: 25px;
+}
+
+.Navbar-logo > img{
+    width: 25px;
+    margin-left: 12px;
+}
+
+.Navbar-activity{
+    padding: 0 6px;
+    margin-left: 3px;
+    color: black;
+    font-weight: 600;
+    font-family: system-ui;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Navbar-subheadings{
+    position: absolute;
+    right: 0;
+    top: 4.8px;
+    height: calc(100% - 4.8px);
+    width: calc(376px*2/3 - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar-subheadings > div{
+    font-family: system-ui;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.Navbar-all-calls{
+    color: grey;
+    box-sizing: border-box;
+    align-self: flex-start;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Navbar-subheadings > .Navbar-inbox{
+    color: grey;
+    box-sizing: border-box;
+    font-weight: 600;
+    align-self: flex-start;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Navbar-settings{
+    cursor: pointer;
+}
+
+.Navbar-settings > img{
+    height: 20px;
+    width: 20px;
+}
+
+.Navbar-subheadings > .Navbar-3-doted-vertical-lines{
+    width: 3px;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Navbar-subheadings > .Navbar-3-doted-vertical-lines > div{
+    width: 1px;
+    height: 1px;
+    background-color: grey;
+    border-radius: 100%;
+}

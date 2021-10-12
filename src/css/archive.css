@@ -1,0 +1,24 @@
+.Inbox-archive-all-calls{
+    width: calc(100% - 26px);
+    margin: 13px 13px 0 13px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    height: 58px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Inbox-archive-all-calls .Inbox-archive-logo{
+    margin-left: 5px;
+}
+
+.Inbox-archive-all-calls .Inbox-archive-text{
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}

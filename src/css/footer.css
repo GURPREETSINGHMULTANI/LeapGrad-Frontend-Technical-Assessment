@@ -1,0 +1,135 @@
+.Footer img{
+    height: 20px;
+}
+
+.Footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    height: 56.25px;
+    /* padding-top: 15px;
+    padding-bottom: 14px; */
+}
+
+.Footer > div{
+    width: 20%;
+    text-align: center;
+}
+
+.Footer > div:nth-child(1), 
+.Footer > div:nth-child(2),
+.Footer > div:nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Footer > div:nth-child(6){
+    cursor: pointer;
+}
+
+.Footer-call-section{
+    position: relative;
+}
+
+.Footer-call-section-bottom-highlight{
+    height: 3px;
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    background-color: rgb(49, 177, 29);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.Footer-alerts{
+    position: absolute;
+    color: white;
+    background-color: #E74C3C;
+    width: 15px;
+    padding: 2px 3.5px;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 12px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    top: 20%;
+    left: 50%;
+}
+
+.Footer-circle-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Footer-green-circle{
+    height: 9px;
+    width: 9px;
+    background-color: rgb(49, 177, 29);
+    border-radius: 50%;
+}
+
+.Circle-dot{
+    position: relative;
+}
+
+.Footer .Footer-center-green-button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    top: 30%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px lightgray;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.Footer .Footer-big-green-circle{
+    background-color: rgb(49, 177, 29);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .Footer-big-green-circle-small-dots{
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, calc((100%)/3));
+    grid-template-rows: repeat(3, calc((100%)/3));
+    place-items: center;
+}
+
+.Footer .Footer-big-green-circle-small-dots > div{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
